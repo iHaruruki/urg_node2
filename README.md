@@ -106,7 +106,7 @@ The urg_libray C API is licensed under the `Simplified BSD License`.
 
 ```
 $ cd <ROS2_workspace>/src
-$ git clone --recursive https://github.com/Hokuyo-aut/urg_node2.git
+$ git clone --recursive git clone --recurse https://github.com/iHaruruki/urg_node2.git
 ```
 
 2. Installing Related Packages

@@ -105,7 +105,7 @@ The urg_libray C API is licensed under the `Simplified BSD License`.
 1. Obtaining Source Code
 
 ```
-$ cd <ROS2_workspace>/src
+$ cd ros2_ws/src
 $ git clone --recurse https://github.com/iHaruruki/urg_node2.git
 ```
 
@@ -119,7 +119,7 @@ $ rosdep install -i --from-paths urg_node2
 3. Build
 
 ```
-$ cd <ROS2_workspace>
+$ cd ros2_ws/src
 $ colcon build --symlink-install
 ```
 
@@ -128,7 +128,7 @@ $ colcon build --symlink-install
 Since the test is executed for `UTM-30LX-EW`, please connect `UTM-30LX-EW` and execute it with the power ON.
 
 ```
-$ cd <ROS2_workspace>
+$ cd ros2_ws/src
 $ colcon test
 ```
 
